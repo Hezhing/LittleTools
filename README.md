@@ -27,7 +27,7 @@
 
 #### 工具运行截图
 
-![工具运行截图](ToDoNotice/result/result.jpg)
+![工具运行截图](ToDoNoticeTool/result/result.jpg)
 
 #### 安装
 
