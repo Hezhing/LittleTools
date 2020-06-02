@@ -19,8 +19,8 @@
 ​	之后进行文件打包 ，该过程需要安装pyinstaller，然后使用命令 打包一个只有.exe文件的包，在dist文件夹下。
 
 ```
-	pip install pyinstaller
-	pyinstaller -F ToDoNotice.py
+pip install pyinstaller
+pyinstaller -F ToDoNotice.py
 ```
 
 ​	在运行.exe文件之前，需要将**’cacert.pem‘**文件和**’待办任务.xlsx‘**都放在dist文件夹下，否则会出现报错。
@@ -32,6 +32,6 @@
 #### 安装
 
 ```
-git clonehttps://github.com/Hezhing/LittleTools.git
+git clone https://github.com/Hezhing/LittleTools.git
 ```
 
