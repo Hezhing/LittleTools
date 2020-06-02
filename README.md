@@ -6,7 +6,7 @@
 
 #### 工具简介	
 
-​		这个小工具是待办任务提醒，是使用python，基于微信的[server酱](http://sc.ftqq.com/3.version)进行开发的一款每日待办任务提醒小工具。只需要将待办任务放到**‘待办任务.xlsx’**文件中，然后运行ToDoNotice.py文件就可以进行推送。这里我使用pyinstaller将本工具打包为.exe文件。
+​		这个小工具是待办任务提醒，是使用python，基于微信的[server酱](http://sc.ftqq.com/3.version)进行开发的一款每日待办任务提醒小工具。只需要将待办任务放到**待办任务.xlsx**文件中，然后运行ToDoNotice.py文件就可以进行推送。这里我使用pyinstaller将本工具打包为.exe文件。
 
 #### 工具自定义
 
@@ -23,7 +23,7 @@ pip install pyinstaller
 pyinstaller -F ToDoNotice.py
 ```
 
-​	在运行.exe文件之前，需要将**’cacert.pem‘**文件和**’待办任务.xlsx‘**都放在dist文件夹下，否则会出现报错。
+​	在运行.exe文件之前，需要将**cacert.pem**文件和**待办任务.xlsx**都放在dist文件夹下，否则会出现报错。
 
 #### 工具运行截图
 
